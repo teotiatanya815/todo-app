@@ -1,0 +1,48 @@
+.task-management {
+    padding: 20px;
+  }
+  
+  .user-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-section input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th, .task-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .task-table td {
+    vertical-align: top;
+  }
+  
+  .task-table button {
+    padding: 5px 10px;
+  }
+  
+  /* Rest of the CSS remains the same */
+  
